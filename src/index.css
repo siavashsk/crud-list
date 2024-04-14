@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .defaultButton {
+    @apply bg-[#333] text-white px-8 py-4 rounded-lg cursor-pointer font-semibold;
+  }
+  .defaultDelButton {
+    @apply bg-red-600 text-white px-8 py-4 rounded-lg cursor-pointer font-semibold;
+  }
+  .defaultInput {
+    @apply border-2 rounded-md px-2 h-10 font-medium;
+  }
+  .userItem {
+    @apply w-[800px] flex justify-between my-3 bg-gray-700 rounded-lg text-white p-4
+  }
+}
